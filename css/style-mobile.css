@@ -1,0 +1,243 @@
+
+/* Small devices (phones, less than 768px) */
+
+@media (max-width: 600px) {
+
+  
+  
+    body {
+     font-size: 14px;
+    
+   } 
+   /* Add more styles for smaller screens here */
+
+
+   .A1 {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+     
+     }
+
+     .A1 nav a {
+       color: black;
+       padding-bottom: 20px;
+       font-weight: 400;
+       font-size: 18px;
+       width: 50%;
+       text-align: center;
+     
+       /* border-bottom: 2px solid black; */
+       border-top : none;
+   }
+
+   .A1 nav {
+   width: 100%;
+   }
+
+   .A1 img {
+    width: 95px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .A1 nav a:hover,
+  .A1 nav a::after {
+    color: #0065fc;
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+    transition: 1s;
+  }
+
+
+ .header-contenu{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+
+  .header-contenu h1 {
+    width: 100%;
+    height: 40px;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .header-contenu p {
+    width: 90%;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .main-container {
+    position: relative;
+    width: 100%;
+    max-width: 1940px;
+    padding: 0 ;
+    box-sizing: border-box;
+  }
+
+  .A2,.A3,.Is,.filtre,.Is{
+    margin: 0 0 0 20px;
+}
+
+.A2 {
+    width: 80%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   overflow: hidden;
+  }
+
+  .A2 button{
+border-radius: 15px;
+width: 30%;
+}
+
+.A2 i{
+
+    width: 10%;
+    text-align: center;
+}
+
+
+.A3{
+        
+       
+gap: 20px;
+
+width: 80%;
+}
+
+.filtre{
+  margin-top: 20px;
+font-size: 20px;
+font-weight:600;
+
+}
+.fa-solid {
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+
+.Is div{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+}
+
+
+
+.Is div i {
+
+  font-size: 15px;
+  width: 5px;
+}
+
+.fil{
+font-size: 15px;
+font-weight: 600;
+
+}
+.A3 div {
+    width: 45%;
+   height: 40px;
+  }
+
+  .Is {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0  30px 20px ;
+  
+  }
+
+
+/*--------------------Fin du header--------------------*/
+
+.hebergements-and-populaires {
+display: flex;
+flex-direction: column-reverse;
+gap: 20px;
+} 
+
+
+.hebergements,.populaires{
+    width: 100%;
+    margin: 0;
+
+ 
+}
+.div article {
+width: 100%;
+object-fit: cover;
+}
+
+.cardp img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 62%;
+
+}
+
+.card-rating{
+display: flex;
+margin-bottom: 10px 0;
+
+}
+
+.card-rating i{
+  padding-top: 5px;
+font-size: 15px;
+}
+
+.card-activite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.card-activites {
+width: 90%;
+
+}
+
+/*---------------Activités----------------------------*/
+
+.card-footer{
+height: 30rem;
+margin-bottom: 0;
+
+} 
+.dd{
+display: none;
+}
+
+
+.card--s{
+width: 100%;
+text-align: left;
+margin-left: 20px;
+}
+
+}
+
